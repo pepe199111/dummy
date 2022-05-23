@@ -1,0 +1,24 @@
+@import "scss/reset";
+@import "scss/variables";
+@import "scss/header";
+@import "scss/main";
+@import "scss/footer";
+@import "scss/basket";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    background: $color-white;
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
